@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+
+.one > h1 a { font-size: 20px; }
+.one > h2 a { font-size: 50px; line-height: 70px;}
+.one > p:nth-of-type(1) { position: absolute; top: 43%; left: 50%; }
+.one > p:nth-of-type(2) { position: absolute; top: 43%; left: 50%; }
+.one > p:nth-of-type(1) img { width: 350px; height: 250px; }
+.one > p:nth-of-type(2) img { width: 350px; height: 250px; position: absolute; top: 55%; left: 50%;}
+.two { font-size: 15px; }
+.two > ul:nth-of-type(1) { position: absolute; top: 28%; left: 52%; padding: 5px;}
+.two > ul:nth-of-type(2) { position: absolute; top: 28%; left: 58%; padding: 5px;}
+article { font-size: 15px; overflow: hidden;}
+article > h4 { font-size: 15px;}
+article > h4:nth-of-type(1) { position: absolute; top: 48%; left: 52.5%; }
+article > h4:nth-of-type(2) { position: absolute; top: 51.5%; left: 52.5%; }
+article > h4:nth-of-type(3) { position: absolute; top: 55%; left: 52.5%; }
+article > h4:nth-of-type(4) { position: absolute; top: 58.5%; left: 52.5%; }
+article > h4:nth-of-type(5) { position: absolute; top: 62%; left: 52.5%; }
+article > h4:nth-of-type(6) { position: absolute; top: 65.5%; left: 52.5%; }
+
+article img:nth-of-type(1) { position: absolute; top: 48.5%; left: 60.5%; }
+article img:nth-of-type(2) { position: absolute; top: 52%; left: 60.5%; }
+article img:nth-of-type(3) { position: absolute; top: 55.5%; left: 60.5%; }
+article img:nth-of-type(4) { position: absolute; top: 59%; left: 60.5%; }
+article img:nth-of-type(5) { position: absolute; top: 62.5%; left: 60.5%; }
+article img:nth-of-type(6) { position: absolute; top: 66%; left: 60.5%; }
+
+article > p:nth-of-type(1) { position: absolute; top: 72%; left: 52.5%; }
+article > p:nth-of-type(2) { position: absolute; top: 80%; left: 52.5%; }
+article > p:nth-of-type(3) { position: absolute; top: 88%; left: 52.5%; }
+
+footer img { position: absolute; top: 45%; left: 50%; width: 350px; height: 280px;}
+footer p:nth-of-type(2) { position: absolute; top: 45%; left: 53%; font-size: 20px; display: none;}
+footer p:nth-of-type(2) span { font-size: 15px;}
+}

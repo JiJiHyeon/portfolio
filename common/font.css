@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+/* font-family: 'Abril Fatface', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+
+/* font-family: 'Racing Sans One', cursive; */
+@import url('https://fonts.googleapis.com/css?family=Racing+Sans+One');
+
+/* font-family: 'Muli', sans-serif; */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700,800');
+
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+/*가구*/
+/* font-family: 'PT Serif', serif; */
+@import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700');
+
+/*font-family: 'EB Garamond', serif;*/
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+/*font-family: 'Amiri', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Amiri');
+
+/*영화*/
+/*font-family: 'Song Myung', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+
+/*font-family: 'Eater', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Eater');

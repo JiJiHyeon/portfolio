@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>포트폴리오</title>
+	<link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link rel="stylesheet" href="common/reset.css">
+	<link rel="stylesheet" href="common/font.css">
+	<link rel="stylesheet" href="mediaQueries.css">
+	<style>
+
+		* { color: #fff; transition: .4s;}
+
+		body { font-family: 'Play', sans-serif;background-color: #000; letter-spacing: 2px;}
+		
+		header { overflow: hidden;}
+		ul { overflow: hidden; }
+		header > div:nth-of-type(1) { float: left; margin: 20px;  }
+		header > div:nth-of-type(2) { float: right; margin: 20px; letter-spacing: 1px;}
+		div:nth-of-type(1) h2 { margin-top: 10px; }
+		div:nth-of-type(1) h1 a:hover { color: #939393;}
+		div:nth-of-type(2) a { margin-left: 10px;}
+		div:nth-of-type(2) a:nth-of-type(2) { color: #939393;}
+		div:nth-of-type(2) a:nth-of-type(2):hover { color: #565656;}
+
+		.one > p { position: absolute; top: 40%; left: 20px; }
+		#col a , #col span { color: #fff; }
+		.col2:hover a , .col2:hover span{ color:#fff; }
+		.one li a ,span { color: #939393; }
+		.one ul { position: absolute; bottom: 100px; left: 20px; }
+		.one li { overflow: hidden; line-height: 80px; }
+		.one li a {font-size: 45px; float: left; width: 800px; font-weight: 700;}
+		.one li span {font-size: 16px; float: left; position: absolute; left: 500px; padding-top:10px; font-weight: 100;}
+
+		.box { float: right; width: 48%; height: 850px; background-color: #fff; margin-right: 20px; margin-top: 20px; }
+
+		footer a { position: fixed; bottom: 20px; left: 20px; font-weight: 700; font-family: 'Montserrat', sans-serif; letter-spacing: 0px;}
+		footer a:hover { background-color: #939393;}
+		footer i { position: fixed; bottom: 20px; left: 200px; }
+	</style>
+	<script src="common/jquery-3.3.1.min.js"></script>
+	<script src="common/prefixfree.min.js"></script>
+	<script>
+		$(function(){
+			$('.col2 a , .col2 span').hover(function(){
+				$('#col a, #col span').css('color','#939393');
+			},function(){
+				$('#col a, #col span').css('color','#fff');
+			});
+			$('footer i').hover(function(){
+				$('footer a').css('backgound-color','#939393');
+			},function(){
+				$('footer a').css('backgound-color','#eee');
+			});
+		});
+	</script>
+</head>
+
+<body>
+	<header>
+		<div>
+			<h1><a href="#">LEE JI HYEON</a></h1>
+			<h2>Multidisciplinary Design</h2>
+		</div>
+		<div>
+			<a href="#">PROJECTS</a>
+			<a href="portfolio_2.html">ABOUT ME</a>
+		</div>
+	</header>
+	<nav class="one">
+		<p>Selected Projects</p>
+		<ul>
+			<li id="col"><a href="#">Furniture Web Page<span>Furniture</span></a></li>
+			<li class="col2"><a href="#">Company Web site<span>Company Introduction</span></a></li>
+			<li class="col2"><a href="#">Museum<span>Museum</span></a></li>
+			<li class="col2"><a href="#">Web Site<span>Web</span></a></li>
+			<li class="col2"><a href="#">Mobile App<span>UX / UI</span></a></li>
+		</ul>
+	</nav>
+	<div class="box"></div>
+	<footer>
+		<p><a href="#">All Projects / Archive </a></p>
+		<a href="#"><i class="fas fa-arrow-circle-up"></i></a>
+	</footer>
+</body>
+</html>

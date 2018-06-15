@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+	<title>가구 홈페이지</title>
+	<link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link rel="stylesheet" href="../common/reset.css">
+	<link rel="stylesheet" href="font/font.css">
+	<link rel="stylesheet" href="script/vegas.min.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="mediaQueries_main.css">
+	<script src="../common/jquery-3.3.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script src="script/vegas.min.js"></script>
+	<script>
+	$(function(){
+		$("body").vegas({
+	    	slides: [
+	    	    { src: "images/bg1.jpg" },
+	    	    { src: "images/bg2.jpg" },
+	    	    { src: "images/bg3.jpg" },
+	    	    { src: "images/bg4.jpg" },
+	    	    { src: "images/bg5.jpg" },
+	    	],
+	    	timer: false,//하단 타이머 미노출
+	    	delay: 4000,//노출 시간
+	    	transition: 'slideLeft2'
+		});
+
+		$('h2 > a > i').click(function(){
+			$('h2 > input').toggleClass('on');
+			$('h2 > input').toggleClass('off');
+		});
+		
+		$('.one > li:nth-of-type(3) a').click(function(){
+		$('.two > li').slideToggle();
+	});
+		$('.open').click(function(){
+			$('.sideMenu').animate({left:0},400)
+			$('#main').css('display','none')
+		});
+		$('.close').click(function(){
+			$('.sideMenu').animate({left:-320},400)
+			$('#main').css('display','block')
+		});		
+
+	});
+
+	</script>
+</head>
+<body>
+	<header>
+		<div id="logo">
+			<h1><a href="#">EMONS</a></h1>
+		</div>
+		<h2><input type="text"></h2>
+		<h2><a href="#"><i class="fas fa-search"></i></a></h2>
+		<h2><a href="#">고객센터</a></h2>
+		<h2><a href="#">로그인</a></h2>
+	</header>
+	<nav>
+	<aside class="open">btn</aside>
+	<div class="sideMenu">
+		<div class="close">btn</div>
+		<ul class="one">
+			<li class="rap"><a href="#">NEW IN</a></li>
+			<li class="rap"><a href="#">BEST<br>SELLERS</a></li>
+			<li class="wrap"><a href="#">SEATING</a>
+				<ul class="two">
+					<li><a href="sub.html">SOFA</a></li>
+					<li><a href="#">LOUNGE CHAIR</a></li>
+					<li><a href="#">DINING CHAIR</a></li>
+					<li><a href="#">BAR CHAIR</a></li>
+					<li><a href="#">BENCH</a></li>
+					<li><a href="#">OFFICE CHAIR</a></li>
+					<li><a href="#">STOOL</a></li>
+				</ul>
+			</li>
+			<li class="wrap"><a href="#">SLEEPING</a></li>
+			<li class="wrap"><a href="#">TABLES</a></li>
+			<li class="wrap"><a href="#">STORAGE</a></li>
+			<li class="ap"><a href="#">LIGHTINGS</a></li>
+		</ul>
+	</div>
+		<p><a href="#">+안내</a></p>
+	</nav>
+	<div id="main">New Collection</div>
+</body>
+</html>
