@@ -1,0 +1,95 @@
+@charset "utf-8";
+
+@media screen and (min-aspect-ratio: 1885/1000) {
+	.static,
+	.points {
+		width: auto;
+		height: calc(100vh - 6em);
+		min-height: 500px;
+	}
+}
+
+@supports (cursor: zoom-in) {
+    .points-content--open {
+		cursor: url(images/close.png) 12 6, pointer;
+	}
+}
+
+@media screen and (min-width: 52.375em) {
+	.point-content {
+		width: 50%;
+	}
+	.js .points {
+		display: block;
+	}
+	.js .backgrounds,
+	.js .background__element {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.js .background__element {
+		opacity: 0;
+		-webkit-transition: opacity 0.1s;
+		transition: opacity 0.1s;
+	}
+	.js .points-tooltip {
+		display: block;
+	}
+	.js .point-tooltip {
+		position: absolute;
+		margin: 0.75em 0 0 0.25em;
+		opacity: 0;
+		-webkit-transform: translate3d(0,10px,0);
+		transform: translate3d(0,10px,0);
+		-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+		transition: opacity 0.3s, transform 0.3s;
+	}
+	.js .point-tooltip--current {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+}
+@media screen and (max-width: 1885px){
+.wrap img { width: 19.5%; }
+.rap > li img { width: 17%; margin:2%;}
+
+.content { margin: 1.5% 100px 0px 00px;}
+.content > h3 { font-size: 30px; margin-bottom: 12%; }
+.content > h4 { margin-bottom: 20%; }
+.content > h5 { font-size: 15px; margin-top: 8%;}
+
+.rap > li .pic img { width: 15%;}
+.rap > li p { position: absolute; top: 65%; left: 51%; font-size: 18px; }
+.rap span i { font-size: 30px; position: absolute; right: 0;}
+.rap > li:nth-of-type(2) .content h3 { font-size: 30px;}
+.rap > li:nth-of-type(2) p { position: absolute; left: 55%;}
+.rap > li:nth-of-type(3) .content h3 { font-size: 30px;}
+.rap > li:nth-of-type(3) p { position: absolute; left: 50%;}
+
+.two > p {font-size: 15px;}
+.two video { width: 60%; }
+}
+
+@media screen and (max-width: 1620px){
+.rap > li { height:450px;}
+.rap > li img { width: 17%; margin:2%;}
+
+.content { line-height: 1.5; float:left; margin: 1.5% 100px 0px 0px;}
+.content > h3 { font-size: 30px; margin-bottom: 10%;}
+.content > h4 { font-size: 15px; margin-bottom: 18%;  }
+.content > h5 { font-size: 15px; margin-top: 7%;}
+
+.rap > li .pic img { width: 15%;}
+.rap > li p { position: absolute; bottom: 20%; left: 48%; }
+.rap span i { font-size: 30px; position: absolute; right: 0;}
+.rap > li:nth-of-type(2) .content h3 { font-size: 25px;}
+.rap > li:nth-of-type(2) p { position: absolute; left: 55%;}
+.rap > li:nth-of-type(3) .content h3 { font-size: 25px;}
+.rap > li:nth-of-type(3) p { position: absolute; left: 52%;}
+
+.two > p {font-size: 13px;}
+}

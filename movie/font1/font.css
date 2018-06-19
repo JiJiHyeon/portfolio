@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*font-family: 'Song Myung', serif;*/
+@import url('https://fonts.googleapis.com/css?family=Song+Myung');
+
+
+/*font-family: 'Eater', cursive;*/
+@import url('https://fonts.googleapis.com/css?family=Eater');
+
+@font-face {
+  font-family: 'Song Myung';
+  src: url('../font1/SongMyung-Regular.eot');
+  src: url('../font1/SongMyung-Regular.woff2') format('woff2'),
+       url('../font1/SongMyung-Regular.woff') format('woff'),
+       url('../font1/SongMyung-Regular.svg#SongMyung-Regular') format('svg'),
+       url('../font1/SongMyung-Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

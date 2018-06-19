@@ -1,20 +1,19 @@
 @charset "utf-8";
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
-	body { }
-	header { width: 100%; }
+/*	header { width: 100%; }
 	header > div:nth-of-type(1) { }
 	header > div:nth-of-type(2) { }
 	div:nth-of-type(1) h2 { }
 	div:nth-of-type(2) a { }
 	div:nth-of-type(2) a:nth-of-type(2) { }
 
-	.one > p { position: absolute; top: 40%; }
-	.one ul {  }
-	.one li {overflow: hidden;}
-	.one li a { font-size: 30px; height: 57px;}
+	.one > p { font-size: 15px; margin-top: 20px;}
+	.one ul { position: absolute; bottom: 200px; }
+	.one li { overflow: hidden; line-height: 80px; font-size: 20px;}
+	.one li a { font-size: 25px; height: 80px;}
 	.one li span { position: absolute; left: 380px; float: left; font-size: 15px; line-height: 70px;}
 
-	.box { width: 48%; height: 595px; margin-right: 20px;}
+*/
 
 }

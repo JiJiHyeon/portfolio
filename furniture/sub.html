@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta charset="utf-8">
+	<title>가구 홈페이지</title>
+	<link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link rel="stylesheet" href="../common/reset.css">
+	<link rel="stylesheet" href="font/font.css">
+	<link rel="stylesheet" href="sub.css">
+	<link rel="stylesheet" href="mediaQueries_sub.css">
+	<script src="../common/jquery-3.3.1.min.js"></script>
+	<script src="../common/prefixfree.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+	<script>
+		$(function(){
+			$('h2 > a > i').click(function(){
+				$('h2 > input').toggleClass('on');
+				$('h2 > input').toggleClass('off');
+			});
+
+			$('fieldset:nth-of-type(1) ').hover(function(){
+				$('fieldset:nth-of-type(1) ').css('opacity','.5')
+				$('fieldset:nth-of-type(1) ').css('transition','.5s')
+			},function(){
+				$('fieldset:nth-of-type(1) ').css('opacity','1')
+			});
+				$('.open').click(function(){
+				$('.sideMenu').animate({left:0},400)
+				$('article').css('display','none')
+				$('#logo').css('display','none')
+			});
+			$('.close').click(function(){
+				$('.sideMenu').animate({left:-320},400)
+				$('article').css('display','block')
+				$('#logo').css('display','block')
+
+			});	
+		});
+
+	</script>
+</head>
+
+<body>
+	<header>
+		<div id="logo">
+			<h2><a href="main.html">EMONS</a></h2>
+		</div>
+		<h2><input type="text"></h2>
+		<h2><a href="#"><i class="fas fa-search"></i></a></h2>
+		<h2><a href="#">고객센터</a></h2>
+		<h2><a href="#">로그인</a></h2>
+	</header>
+	<nav>
+	<aside class="open">btn</aside>
+	<div class="sideMenu">
+		<div class="close">btn</div>
+		<ul class="one">
+			<li id="rap"><a href="#">NEW IN</a></li>
+			<li id="rap"><a href="#">BEST<br>SELLERS</a></li>
+			<li id="wrap"><a href="#">SEATING</a>
+				<ul class="two">
+					<li><a href="#">SOFA</a></li>
+					<li><a href="#">LOUNGE CHAIR</a></li>
+					<li><a href="#">DINING CHAIR</a></li>
+					<li><a href="#">BAR CHAIR</a></li>
+					<li><a href="#">BENCH</a></li>
+					<li><a href="#">OFFICE CHAIR</a></li>
+					<li><a href="#">STOOL</a></a></li>
+				</ul>
+			</li>
+			<li id="wrap"><a href="#">SLEEPING</a></li>
+			<li id="wrap"><a href="#">TABLES</a></li>
+			<li id="wrap"><a href="#">STORAGE</a></li>
+			<li id="ap"><a href="#">LIGHTINGS</a></li>
+		</ul>
+	</div>
+		<P><a href="#">+안내</a></P>
+	</nav>
+		<article>
+			<fieldset>
+			<a href="sub_buy.html"><img src="images/sofa/sofa1.jpg" alt="sofa1"></a>
+			<p>SPHERE U31 SOFA 2SEATER<br>3,887,000원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square1.jpg" alt="one">
+			</fieldset>
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa2.jpg" alt="sofa2"></a>
+			<p>SPHERE U31 SOFA 3SEATER<br>2,267,000원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square2.jpg" alt="one">
+			</fieldset>
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa3.jpg" alt="sofa3"></a>
+			<p>WW35 2SEATER<br>3,915,000원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square3.jpg" alt="one">
+			</fieldset>
+
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa4.jpg" alt="sofa1"></a>
+			<p>UU22 SOFA<br>3,612,500원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square4.jpg" alt="one">
+			</fieldset>
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa5.jpg" alt="sofa2"></a>
+			<p>UU24 SOFA<br>2,612,500원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square5.jpg" alt="one">
+			</fieldset>
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa6.jpg" alt="sofa3"></a>
+			<p>UW52 LONG SOFA<br>4,631,000원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square6.jpg" alt="one">
+			</fieldset>
+
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa7.jpg" alt="sofa1"></a>
+			<p>WU45 3SEATER<br>2,779,000원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square7.jpg" alt="one">
+			</fieldset>
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa8.jpg" alt="sofa2"></a>
+			<p>HS-1 3SEATER<br>2,830,000원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square8.jpg" alt="one">
+			</fieldset>
+			<fieldset>
+			<a href="#"><img src="images/sofa/sofa9.jpg" alt="sofa3"></a>
+			<p>WU47 SOFA<br>3,294,000원</p>
+			<i class="fas fa-caret-up"></i>colors:<img src="images/square9.jpg" alt="one">
+			</fieldset>
+		</article>
+</body>
+</html>

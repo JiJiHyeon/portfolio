@@ -25,14 +25,17 @@
 
 		.one > p { position: absolute; top: 40%; left: 20px; }
 		#col a , #col span { color: #fff; }
-		.col2:hover a , .col2:hover span{ color:#fff; }
+		.col2:hover a , .col2:hover span { color:#fff; }
 		.one li a ,span { color: #939393; }
 		.one ul { position: absolute; bottom: 100px; left: 20px; }
 		.one li { overflow: hidden; line-height: 80px; }
 		.one li a {font-size: 45px; float: left; width: 800px; font-weight: 700;}
 		.one li span {font-size: 16px; float: left; position: absolute; left: 500px; padding-top:10px; font-weight: 100;}
 
-		.box { float: right; width: 48%; height: 850px; background-color: #fff; margin-right: 20px; margin-top: 20px; }
+		.box { float: right; width: 1000px; height: 850px; margin-right: 20px; margin-top: 20px; }
+		ul.imgG { opacity: .7; }
+		ul.imgG > li { float: left; position: absolute; }
+		ul.imgG > li:nth-of-type(2) { display: none; }
 
 		footer a { position: fixed; bottom: 20px; left: 20px; font-weight: 700; font-family: 'Montserrat', sans-serif; letter-spacing: 0px;}
 		footer a:hover { background-color: #939393;}
@@ -40,20 +43,7 @@
 	</style>
 	<script src="common/jquery-3.3.1.min.js"></script>
 	<script src="common/prefixfree.min.js"></script>
-	<script>
-		$(function(){
-			$('.col2 a , .col2 span').hover(function(){
-				$('#col a, #col span').css('color','#939393');
-			},function(){
-				$('#col a, #col span').css('color','#fff');
-			});
-			$('footer i').hover(function(){
-				$('footer a').css('backgound-color','#939393');
-			},function(){
-				$('footer a').css('backgound-color','#eee');
-			});
-		});
-	</script>
+	<script src="index.js"></script>
 </head>
 
 <body>
@@ -70,14 +60,19 @@
 	<nav class="one">
 		<p>Selected Projects</p>
 		<ul>
-			<li id="col"><a href="#">Furniture Web Page<span>Furniture</span></a></li>
-			<li class="col2"><a href="#">Company Web site<span>Company Introduction</span></a></li>
+			<li id="col"><a href="furniture/main.html">Furniture Web Site<span>Furniture</span></a></li>
+			<li class="col2"><a href="movie/movie_main.html">Movie Introduction<span>Alice In Wonderland</span></a></li>
 			<li class="col2"><a href="#">Museum<span>Museum</span></a></li>
 			<li class="col2"><a href="#">Web Site<span>Web</span></a></li>
 			<li class="col2"><a href="#">Mobile App<span>UX / UI</span></a></li>
 		</ul>
 	</nav>
-	<div class="box"></div>
+	<div class="box">
+		<ul class="imgG">
+			<li><a href="furniture/main.html"><img src="images/main1.jpg" alt="one"></a></li>
+			<li><a href="furniture/main.html"><img src="images/main2.jpg" alt="one"></a></li>
+		</ul>
+	</div>
 	<footer>
 		<p><a href="#">All Projects / Archive </a></p>
 		<a href="#"><i class="fas fa-arrow-circle-up"></i></a>
