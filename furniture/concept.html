@@ -3,33 +3,104 @@
 <head>
 	<meta charset="utf-8">
 	<title>EMONS</title>
+	<link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.13/css/all.css">
 	<link rel="stylesheet" href="../common/reset.css">
 	<link rel="stylesheet" href="font/font.css">
+	<link rel="stylesheet" href="concept.css">
 	<script src="../common/prefixfree.min.js"></script>
-	<style>
-	body { font-family: 'PT Serif', serif;  }
-		.main { width: 1200px; height:2760px; margin: 0 auto; border:1px solid; box-sizing: border-box; position: relative;}
-		.main > .box { width: 640px; height: 2550px; position: absolute; top: 135px; left: 0; right: 0; margin: auto; background-color: #eee; }
-		h1 { width: 345.281px; font-size: 70px; font-weight: bold; position: absolute; top: 60px; left: 0; right: 0; margin: auto; text-align: center; line-height: 75px;}
-		.main > img:nth-of-type(1) { position: absolute; top: 250px; left: 0; right: 0; margin: auto; }
-		.main > img:nth-of-type(2) { position: absolute; top: 400px; left: 0; right: 0; margin: auto;  }
-	</style>
+	<script src="../common/jquery-3.3.1.min.js"></script>
+	
 </head>
 <body>
 	<div class="main">
+	<header>
 		<div class="box"></div>
 		<h1>PROJECT<br>EMONS</h1>
 		<img src="images/line.png" alt="line">
 		<img src="images/computer.png" alt="computer">
+	</header>
 	<article class="one">
+		<img src="images/line1.png" alt="line1">
+		<fieldset>
 		<h2>Concept</h2>
 		<p>가구의 고급스럽고 심플함을 나타낼 수 있는 반응형 웹페이지를 제작하였다.<br>
 		가구를 클릭하면 상세페이지로 넘어가며 가구의 다양한 상세사진을 보고 구매 할 수 있도록<br>
 		데스크톱 버전, 태블릿 버전, 모바일 버전으로 구현하였다.</p>
 		<h2>Keyword</h2>
-		<p></p>
+		<p>Luxurious / Simple</p>
+		</fieldset>
 	</article>
+	<aricle class="two">
+		<aside>
+			<fieldset class="font1">
+				<h2>Malgun Gothic</h2>
+				<ul>
+					<li>Aa<br><span>regular</span></li>
+					<li>Aa<br><span>bold</span></li>
+					<li>가나<br><span>Korean</span></li>
+				</ul>
+			</fieldset>
+			<fieldset class="font2">
+				<h2>Amiri</h2>
+				<ul>
+					<li>Aa<br><span>regular</span></li>
+					<li>Aa<br><span>bold</span></li>
+					<li>가나<br><span>Korean</span></li>
+				</ul>
+			</fieldset>
+			<fieldset class="font3">
+				<h2>Font</h2>
+				<img src="images/line2.png" alt="line1">
+			</fieldset>
+		</aside>
+	</aricle>
+	<article class="three">
+		<aside>
+			<img src="images/line2.png" alt="line1">
+			<h2>Color</h2>
+			<div class="color1"></div>
+			<div class="color2"></div>
+			<div class="color3"></div>
+			<ul>
+				<li>Main Color<br><span>#fff</span></li>
+				<li>Sub Color<br><span>#808080</span></li>
+				<li>Sub Color<br><span>#000</span></li>
+			</ul>
+		</aside>
+	</article>
+	<article class="four">
+		<img src="images/line3.png" alt="line3">
+		<h2>publishing</h2>
+		<aside>
+		<h5>Coding</h5>
+		<p>
+			vegas 플러그인을 사용하여 메인화면의 사진이 자연스럽게 왼쪽으로 넘어갈 수 있게 하였고<br> 서브페이지로 넘어가는 부분은 hover 기능을 사용하여 마우스를 올리면 글자의 색이 변하게 하였다.<br> 글자를 클릭하면 display 값을 이용해 숨겨놓았던 사이드 메뉴를 볼 수 있다.
+		</p>
+		<p>
+			서브페이지에서는 opacity와 transition을 이용해 클릭할 수 있는 부분의 이미지가 부드럽게 연해지며,<br> 상세페이지로 들어가면 원하는 가구의 여러 상세컷을 넣어놓고 클릭하면 원하는 이미지가 크게 보이게 하였다.<br> 모든 페이지는 MediaQuery를 이용하여 여러 버전에서 반응할 수 있게 하였다.
+		</p>
+	</aside>
+	</article>
+	<footer>
+		<div class="box">
+		<p><a href="main.html">view my work</a></p>
+		<a href="main.html"><i class="fas fa-arrow-circle-right"></i></a>
+		</div>
+	</footer>
+
 	</div>
-	
+	<script>
+		$(function(){
+			$('footer > .box').hover(function(){
+				$('footer > .box').css('background-color','#B0B0B0');
+				$('footer a').css('color','#fff');
+				$('footer i').css('color','#fff');
+			},function(){
+				$('footer > .box').css('background-color','#eee');
+				$('footer a').css('color','#000');
+				$('footer i').css('color','#000');
+			});
+		});
+	</script>
 </body>
 </html>
