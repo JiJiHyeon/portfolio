@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1600px){
+
+header > img { margin-left: 14%; }
+header > h1{ font-size: 150px; }
+header > p { font-size: 40px; position: absolute; top: 400px; left: 65px;}
+
+.top { margin-top: 4.2%; }
+.top > p { font-size: 40px; }
+.top > p:nth-of-type(2) { border-bottom: 7px dotted; width: 115px;}
+
+.gallery { text-align: left; height: 2700px;}
+.gallery > div a:nth-of-type(1) img { width: 80%; }
+.gallery > div h3 { font-size: 30px;}
+
+.gallery > .one { top:50px; left:70px; }
+.gallery > .two { top:-40px; left:560px; text-align: left; }
+.gallery > .three { top:40px; right:0px; text-align: left;}
+.gallery > .four { top:800px; left:117.84px; text-align: left; width: 30%; }
+.gallery > .five { top:540px; left:580px; width: 28%;}
+.gallery > .six { top:480px; right:-150px; }
+.gallery > .seven { top:1300px; left:50px; text-align: left; }
+.gallery > .eight { top:1380px; left:740px; }
+.gallery > .nine { top:1300px; right:-30px; }
+.gallery > .ten { top:1850px; left:100px; text-align: left;}}
+
+footer { top: 2700px; left: 800px; }
+}
+
+

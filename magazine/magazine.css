@@ -19,7 +19,6 @@ header > p span { padding-left: 1%; }
 .gallery > div h3 { font-size: 40px; }
 .gallery > div p { margin-bottom: 1.5%; }
 .gallery > .one { top:100px; left:70px; }
-.gallery > .one nav { width: 466px; height: 691px; }
 .gallery > .two { top:-20px; left:712px; text-align: left;}
 .gallery > .three { top:40px; right:40px; text-align: left;}
 .gallery > .four { top:1000px; left:117.84px; text-align: left;}
