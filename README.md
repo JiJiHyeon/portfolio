@@ -1,2 +1,2 @@
 # portfolio
-furniture
+https://jijihyeon.github.io/portfolio/index.html
