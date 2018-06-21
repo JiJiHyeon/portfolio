@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Britannic Bold T.';
+  src: url('Britannic Bold T..eot');
+  src: url('Britannic Bold T..woff2') format('woff2'),
+       url('Britannic Bold T..eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Britannic-BoldT.';
+  src: url('Britannic-BoldT..woff') format('woff'),
+       url('Britannic-BoldT..ttf') format('truetype'),
+       url('Britannic-BoldT..svg#Britannic-BoldT.') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
