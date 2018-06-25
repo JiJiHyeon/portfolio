@@ -1,7 +1,7 @@
 $(function(){
 	$('.top > p:nth-of-type(2)').hover(function(){
 		$('.top > p:nth-of-type(2)').css('border-bottom','none');
-		$('.top > p:nth-of-type(2)').css('color','#ff1a1a');
+		$('.top > p:nth-of-type(2)').css('color','#c20202');
 		$('.top > p:nth-of-type(2) span').css('color','#000');
 	},function(){
 		$('.top > p:nth-of-type(2)').css('border-bottom','7px dotted');
@@ -9,7 +9,7 @@ $(function(){
 	});
 
 	$('header > h2 span').hover(function(){
-		$('header > h2 span').css('color','#ff1a1a');
+		$('header > h2 span').css('color','#c20202');
 		$('header > img').css('display','none');
 	},function(){
 		$('header > h2 span').css('color','#000');
@@ -17,7 +17,7 @@ $(function(){
 	});
 
 	$('.gallery > div a:nth-of-type(1) img').hover(function(){
-		$(this).css({'filter':'none','border':'8px solid #ff1a1a','transform':'scale(1.05)','margin-bottom':'20px'});
+		$(this).css({'filter':'none','border':'8px solid #c20202','transform':'scale(1.05)','margin-bottom':'20px'});
 	},function(){
 		$(this).css({'filter':'grayscale(100%)','border':'8px solid #000','transform':'scale(1)','margin-bottom':'0px'});
 	});

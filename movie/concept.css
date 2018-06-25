@@ -23,16 +23,15 @@ body { font-family: 'Radley', serif; }
 		.two fieldset li:nth-of-type(3) { font-size: 50px; line-height: 44px;}
 		.two fieldset span { margin-top: 0px; }
 
-		.font1 { font-family: '맑은 고딕'; }
+		.font1 { font-family: 'Song Myung'; }
 		.font1 > h2 { font-size: 24px; }
 		.font1 li { font-size: 70px; }
 		.font1 span { font-size: 15px; }
 
-		.font2 { font-family: 'Amiri'; }
-		.font2 > h2 { font-size: 26px; }
-		.font2 > ul { padding-top: 8px; }
-		.font2 li { font-size: 72px; }
-		.font2 span { font-size: 18px; }
+		.font2 { font-family: 'Eater'; }
+		.font2 > h2 { font-size: 22px; }
+		.font2 li { font-size: 68px; }
+		.font2 span { font-size: 13px; }
 		.font3 { position: relative; }
 		.font3 > h2 { position:absolute; top:56px; right: 270px; font-size: 40px;  }
 		.font3 > img {  position:absolute; top:50px; right: 240px;}
@@ -45,8 +44,8 @@ body { font-family: 'Radley', serif; }
 		.three li { float: left; margin-right: 145px; line-height: 1.2;}
 		.three span { margin-top: 10px;}
 		.color1 { background-color: #fff; }
-		.color2 { background-color: #808080; }
-		.color3 { background-color: #000; }
+		.color2 { background-color: #000; }
+		.color3 { background-color: #d42733; }
 
 		.four { clear: both; position: relative; margin-top: 180px;}
 		.four > img { margin-left: 520px; }
@@ -56,6 +55,6 @@ body { font-family: 'Radley', serif; }
 		.four p { margin-bottom: 20px; line-height: 1.5; font-family: '맑은 고딕'; margin-left: 15px;}
 
 		footer { position: relative; }
-		footer > .box { width: 250px; height: 50px; background-color: #eee;  position: absolute; top: 76px; left: 0; right: 0; margin:auto;}
+		footer > .box { width: 250px; height: 50px; background-color: #eee;  position: absolute; top: 100px; left: 0; right: 0; margin:auto;}
 		.box > p a,i { font-size: 27px; color: #000; text-align: center; line-height: 50px; margin-left: 26px;}
 		.box > a i { position: absolute; top: 14px; left: 170px; }

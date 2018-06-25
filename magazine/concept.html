@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title>magazine</title>
+	<link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.0.13/css/all.css">
+	<link rel="stylesheet" href="../common/reset.css">
+	<link rel="stylesheet" href="font/font.css">
+	<link rel="stylesheet" href="concept.css">
+	<script src="../common/prefixfree.min.js"></script>
+	<script src="../common/jquery-3.3.1.min.js"></script>
+	
+</head>
+<body>
+	<div class="main">
+	<header>
+		<div class="box"></div>
+		<h1>PROJECT<br>Magazine</h1>
+		<img src="images/line.png" alt="line">
+		<img src="images/computer.png" alt="computer">
+	</header>
+	<article class="one">
+		<img src="images/line1.png" alt="line1">
+		<fieldset>
+		<h2>Concept</h2>
+		<p>어두운 파스텔톤의 하늘색 배경에 테두리가 있는 흑백 사진을 넣어 복고풍스러운 잡지 매거진을 만들었다.</p>
+		<h2>Keyword</h2>
+		<p>restoration / irregular</p>
+		</fieldset>
+	</article>
+	<aricle class="two">
+		<aside>
+			<fieldset class="font1">
+				<h2>Britannic Bold T.</h2>
+				<ul>
+					<li>Aa<br><span>regular</span></li>
+					<li>Aa<br><span>bold</span></li>
+					<li>가나<br><span>Korean</span></li>
+				</ul>
+			</fieldset>
+			<fieldset class="font2">
+				<h2>나눔고딕</h2>
+				<ul>
+					<li>Aa<br><span>regular</span></li>
+					<li>Aa<br><span>bold</span></li>
+					<li>가나<br><span>Korean</span></li>
+				</ul>
+			</fieldset>
+			<fieldset class="font3">
+				<h2>Font</h2>
+				<img src="images/line2.png" alt="line1">
+			</fieldset>
+		</aside>
+	</aricle>
+	<article class="three">
+		<aside>
+			<img src="images/line2.png" alt="line1">
+			<h2>Color</h2>
+			<div class="color1"></div>
+			<div class="color2"></div>
+			<div class="color3"></div>
+			<ul>
+				<li>Main Color<br><span>#9BBCC4</span></li>
+				<li>Sub Color<br><span>#c20202</span></li>
+				<li>Sub Color<br><span>#686868</span></li>
+			</ul>
+		</aside>
+	</article>
+	<article class="four">
+		<img src="images/line3.png" alt="line3">
+		<h2>publishing</h2>
+		<aside>
+		<h5>Coding</h5>
+		<p>
+			border dotted를 이용하여 원하는 글자밑에 점선을 넣고 제이쿼리를 사용해 글자에 마우스를 대면 <br>색이 변하면서 점선이 없어지게 하였다.
+		</p>
+		<p>
+			사진은 grayscale값으로 흑백으로 만들고 border를 사용해 테두리를 넣었다.<br> 사진에 마우스를 대면 transform값으로 사진의 크기가 커지며 filter none을 사용해 사진의 컬러가 나오게 하였다.
+		</p>
+	</aside>
+	</article>
+	<footer>
+		<div class="box">
+		<p><a href="magazine.html">view my work</a></p>
+		<a href="magazine.html"><i class="fas fa-arrow-circle-right"></i></a>
+		</div>
+	</footer>
+
+	</div>
+	<script>
+		$(function(){
+			$('footer > .box').hover(function(){
+				$('footer > .box').css('background-color','#B0B0B0');
+				$('footer a').css('color','#fff');
+				$('footer i').css('color','#fff');
+			},function(){
+				$('footer > .box').css('background-color','#eee');
+				$('footer a').css('color','#000');
+				$('footer i').css('color','#000');
+			});
+		});
+	</script>
+</body>
+</html>
