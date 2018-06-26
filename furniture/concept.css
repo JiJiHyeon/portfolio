@@ -14,6 +14,7 @@ body { font-family: 'Radley', serif; }
 		h2{ font-size: 40px; /*font-weight: bold;*/ margin:10px;}
 		.one  h2:nth-of-type(2){padding-top: 25px;}
 		.one  p { margin:20px; line-height: 1.5; font-family: '맑은 고딕'; }
+		.one  p em{ font-size: 20px; font-weight: bold; }
 
 		.two {  position: relative; }
 		.two > aside { position: absolute;top: 100px; left: 150px; width: 1200px; height: 200px; }
@@ -54,8 +55,9 @@ body { font-family: 'Radley', serif; }
 		.four > aside { margin-left: 180px; margin-top: 70px;}
 		.four h5 { font-size: 26px; margin-bottom: 15px; }
 		.four p { margin-bottom: 20px; line-height: 1.5; font-family: '맑은 고딕'; margin-left: 15px;}
+		.four p em { font-size: 17px; font-weight: bold; }
 
-		footer { position: relative; }
-		footer > .box { width: 250px; height: 50px; background-color: #eee;  position: absolute; top: 76px; left: 0; right: 0; margin:auto;}
-		.box > p a,i { font-size: 27px; color: #000; text-align: center; line-height: 50px; margin-left: 26px;}
+		footer { position: relative; height: 180px; width: 100%;}
+		footer > .box { width: 250px; height: 50px; background-color: #eee;  position: absolute; top: 90px; left: 0; right: 0; margin:auto;}
+		.box > p a,i { font-size: 27px; color: #000; text-align: center; line-height: 50px; margin-left: 27px;}
 		.box > a i { position: absolute; top: 14px; left: 170px; }

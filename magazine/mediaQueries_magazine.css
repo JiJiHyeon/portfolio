@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (max-width: 1600px){
+@media screen and (min-width: 1600px) and (max-width: 1760px) {
 
 header > img { margin-left: 14%; }
 header > h1{ font-size: 150px; }
@@ -10,22 +10,52 @@ header > p { font-size: 40px; position: absolute; top: 400px; left: 65px;}
 .top > p { font-size: 40px; }
 .top > p:nth-of-type(2) { border-bottom: 7px dotted; width: 115px;}
 
-.gallery { text-align: left; height: 2700px;}
+.gallery { text-align: left; height: 2700px; }
 .gallery > div a:nth-of-type(1) img { width: 80%; }
 .gallery > div h3 { font-size: 30px;}
 
 .gallery > .one { top:50px; left:70px; }
 .gallery > .two { top:-40px; left:560px; text-align: left; }
-.gallery > .three { top:40px; right:0px; text-align: left;}
+.gallery > .three { top:40px; right:30px; text-align: left;}
 .gallery > .four { top:800px; left:117.84px; text-align: left; width: 30%; }
 .gallery > .five { top:540px; left:580px; width: 28%;}
-.gallery > .six { top:480px; right:-150px; }
+.gallery > .six { top:480px; right:-130px; }
 .gallery > .seven { top:1300px; left:50px; text-align: left; }
 .gallery > .eight { top:1380px; left:740px; }
 .gallery > .nine { top:1300px; right:-30px; }
-.gallery > .ten { top:1850px; left:100px; text-align: left;}}
+.gallery > .ten { top:1850px; left:100px; text-align: left;}
 
 footer { top: 2700px; left: 800px; }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+
+header { height: 450px; }
+header > img { margin-left: 12%; width: 30%; }
+header > h1{ font-size: 120px; }
+header > h2{ font-size: 100px; }
+header > p { font-size: 40px; position: absolute; top: 300px; left: 65px;}
+
+.top { margin-top: 3.8%; }
+.top > p { font-size: 40px; }
+.top > p:nth-of-type(2) { border-bottom: 7px dotted; width: 115px;}
+
+.gallery { text-align: left; height: 2500px; }
+.gallery > div a:nth-of-type(1) img { width: 80%; }
+.gallery > div h3 { font-size: 30px;}
+
+.gallery > .one { top:0px; left:70px; }
+.gallery > .two { top:-100px; left:490px; text-align: left; }
+.gallery > .three { top:40px; right:-100px; text-align: left;}
+.gallery > .four { top:750px; left:117.84px; text-align: left; width: 30%; }
+.gallery > .five { top:420px; left:520px; width: 28%;}
+.gallery > .six { top:480px; right:-130px; width: 45%; }
+.gallery > .seven { top:1100px; left:50px; text-align: left; }
+.gallery > .eight { top:1300px; left:660px; }
+.gallery > .nine { top:1200px; right:-100px; width: 30%;}
+.gallery > .ten { top:1700px; left:80px; text-align: left;}
+
+footer { top: 2450px; left: 800px; }
 }
 
 

@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+@media screen and (min-width: 1440px) and (max-width: 1760px) {
+	.sub > fieldset { width: 30%; }
+	.sub .content { width: 90%; }
+	.content > .one li:nth-of-type(1) { font-size: 20px; }
+	.content > .one li:nth-of-type(2) { font-size: 25px; }
+	.content > .one li:nth-of-type(3) { font-size: 25px; margin-top: 10px;}
+
+	.sub1 { width: 100%; }
+	.sub1 > fieldset:nth-of-type(1) { width: 25%; margin-left:60px; }
+	.cont1 > h2 { font-size: 30px; }
+	.cont1 > p { font-size: 15px; line-height: 22px;}
+
+	/*.work { height: 600px; }*/
+	.sub1 { height: 350px; }
+	.cont2 > fieldset { width: 50%; }
+	.cont2 > fieldset img { width: 20%; }
+	.cont2 > fieldset:nth-of-type(1) { width: 71%; }
+
+	.sub2 { height: 350px; width: 93%;}
+	.sub2 > fieldset:nth-of-type(1) { width: 25%; height: 350px; margin-left:0px; }
+	.sub2 > fieldset:nth-of-type(1) h2{  }
+	.sub2 .cont1 ul { margin-left: 40px; }
+	.sub2 .cont1 ul li img { width: 90%; }
+	.cont1 > ul:nth-of-type(2) { font-size: 15px; }
+	.cont1 > ul:nth-of-type(2) li { margin: 50px 0 100px 0px; font-weight: bold;}
+
+	.sub2 > fieldset:nth-of-type(2) { width: 20%; margin-left: 10px; }
+	.sub2 > fieldset:nth-of-type(2) i { font-size: 25px; position: absolute;top: 150px; left: 500px; }
+
+	.sub2 > fieldset:nth-of-type(2) h3 {font-size: 20px; font-weight: bold;}
+.sub2 > fieldset:nth-of-type(2) h3:nth-of-type(1) { position: absolute; top: 60px; left: 500px; }
+.sub2 > fieldset:nth-of-type(2) h3:nth-of-type(2) { position: absolute; top: 60px; right: 510px; }
+.sub2 > fieldset:nth-of-type(2) h3:nth-of-type(3) { position: absolute; top: 60px; right: 90px; }
+}
