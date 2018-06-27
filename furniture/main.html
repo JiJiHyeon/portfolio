@@ -12,6 +12,7 @@
 	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="mediaQueries_main.css">
 	<script src="../common/jquery-3.3.1.min.js"></script>
+	<script src="../common/prefixfree.min.js"></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
 	<script src="script/vegas.min.js"></script>
 	<script>
@@ -38,10 +39,12 @@
 		$('.two > li').slideToggle();
 	});
 		$('.open').click(function(){
-			$('#main').css('display','none')
+			$('nav .sideMenu').css('left','0px');
+			$('#main').css('display','none');
 		});
 		$('.close').click(function(){
-			$('#main').css('display','block')
+			$('nav .sideMenu').css('left','-320px');
+			$('#main').css('display','block');
 		});		
 
 	});

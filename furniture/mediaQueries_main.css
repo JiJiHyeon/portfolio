@@ -17,7 +17,7 @@
 	#main { position: fixed; top: 50%; left: 50%; margin-left: -124.475px; margin-top: -20px; font-size: 40px; }
 	.two li { font-size: 8px; }
 	nav { height: 100%; position: fixed; top: 0; left: 0; font-size: 15px; }
-	nav > .open {
+	nav .open {
 		display: block;
 		width: 25px; height: 25px;
 		background:url(images/nav.png) no-repeat;
@@ -27,7 +27,7 @@
 		text-indent: -9999px;
 		cursor: pointer;
 	}
-	nav > .sideMenu {
+	nav .sideMenu {
 		width: 300px; height: 100%;
 		background-color: #282828;
 		font-weight: bold;
@@ -35,7 +35,7 @@
 		left: -320px;
 		overflow: hidden;
 	}
-	nav > .sideMenu >.close{
+	nav .sideMenu .close{
 		display:block;
 		width: 25px; height: 25px;
 		background:url(images/nav.png) no-repeat;
@@ -45,7 +45,7 @@
 		cursor: pointer;
 		z-index: 999;
 	}
-	nav>.sideMenu>.one {
+	nav .sideMenu .one {
 		position: absolute; top: 100px; left: 35%;
 		font-size: 20px;
 	}

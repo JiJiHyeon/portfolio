@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* 넷북 */
 @media screen and (max-width: 1440px){
-	article { width: 900px; position: absolute; right: 0%;}
+	article { width: 900px; position: absolute; left: 30%;}
 }
 
 /* 테블릿 */

@@ -32,8 +32,11 @@
 	footer a:hover { background-color: #939393;}
 	footer i { position: fixed; bottom: 20px; left: 200px; }
 
-	article { position: relative; height: 980px; margin-top: 1200px; background-color: rgba(0,0,0,0.5); z-index: 9999; overflow: auto; }
+	article { position: relative; height: 980px; margin-top: 980px; background-color: rgba(0,0,0,0.8); z-index: 9999; overflow: auto; }
 	::-webkit-scrollbar {display:none;}
 	article > h2 { font-size: 20px; position: absolute; right: 5px; margin-right: 20px; }
 	article > h2 i{ margin-left: 10px; }
-	article > ul li { float: left; margin: 125px; }
+	article > fieldset div { float: left; margin-left: 16%; margin-bottom: 10%;}
+	article > fieldset div p { font-size: 20px; margin-top: 10px;}
+	article > fieldset div span { font-size: 14px; }
+	article > fieldset .cont2 span { padding-left: 10px; }

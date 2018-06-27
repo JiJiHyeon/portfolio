@@ -62,16 +62,9 @@ $(function(){
 		$('.imgG > li:nth-of-type(5)').css('display','none');
 	});
 
-	// $('footer > p a').hover(function(){
-	// 	$('footer > p a').css('color','#939393');
-	// 	$('footer > a i').css('color','#939393');
-	// },function(){
-	// 	$('footer > p a').css('color','#eee');
-	// 	$('footer > a i').css('color','#eee');
-	// });
-
 	$('footer > p a').click(function(){
 		// $('article').css('display','block');
 		$('article').animate({'margin-top':'0px'},200);
 	});
+
 });

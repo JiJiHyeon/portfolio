@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-@media screen and (min-width: 1440px) and (max-width: 1760px) {
+@media screen and (min-width: 1600px) and (max-width: 1780px) {
 	.one > p { font-size: 15px; margin-top: 2%;}
 	.one ul { position: absolute; bottom: 60px; left: 20px; }
 	.one li a { font-size: 40px; width: 800px; }
@@ -8,5 +8,16 @@
 	.box { width: 800px; height: 650px; }
 	.img { width: 800px; height: 650px; }
 	.imgG a img { width: 800px; height: 650px; }
+}
 
+@media screen and (min-width: 1400px) and (max-width: 1599px) {
+	.one > p { font-size: 15px; margin-top: 8%;}
+	.one ul { position: absolute; bottom: 60px; left: 20px; }
+	.one li { line-height: 65px; }
+	.one li a { font-size: 35px; width: 800px; }
+	.one li span { left: 500px; padding-top: 5px;}
+
+	.box { width: 600px; height: 500px; bottom: 1.5%; }
+	.img { width: 600px; height: 500px; }
+	.imgG a img { width: 600px; height: 500px; }
 }

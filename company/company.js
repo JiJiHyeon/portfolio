@@ -89,5 +89,5 @@ $(function(){
 			$('header').stop(true).css('background-color','#000');
 			$('header > ul li').css('color','#fff');
 		}
-	});
+		});
 });
