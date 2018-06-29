@@ -9,7 +9,7 @@ header > h2 span {  font-size: 40px; }
 header > h1 { font-size: 130px; font-weight:bold; margin-top: 20px;}
 
 header > article { width: 1200px; margin:20% 5%; text-align: left; overflow: hidden;}
-header > article div { float:left; width: 200px; height: 135px; margin: 0 5px; background-color:#fff; opacity: .6; border-top: 6px solid #04619E; box-sizing: border-box; cursor: pointer; transition: .5s;}
+header > article div { float:left; width: 200px; height: 135px; margin: 0 5px; background-color:rgba(255,255,255,.6); border-top: 6px solid #04619E; box-sizing: border-box; cursor: pointer; transition: .5s;}
 header > article div p { margin: 20px; line-height: 30px; }
 header > article div p a { color: #000; font-weight: bold; font-size: 13px; float: left;}
 header > article div p span { font-size: 32px;}
@@ -18,7 +18,7 @@ header > article div p em { font-size: 17px;}
 .box5 a:nth-of-type(2) {margin-top: 15%; }
 
 
-.sub1 { background: url(images/bluesquare.png) no-repeat; background-size:cover; width: 100%; height: 980px; background-position: center; margin-top: -1.1%; font-weight: bold; color:#fff;}
+.sub1 { background: url(images/bluesquare.png) no-repeat; background-size:cover; width: 100%; height: 980px; background-position: center; margin-top: -20px; font-weight: bold; color:#fff;}
 .content { width:1200px; margin: 0 auto; }
 .content > h2 { float: left; margin:6% 230px;}
 .content > h2 a { font-size: 30px; }
@@ -64,8 +64,29 @@ header > article div p em { font-size: 17px;}
 .sub2 > img{ width: 100%; }
 
 .sub3 { background: url(images/main2.jpg) no-repeat center; width: 100%; height: 980px; background-size: cover; margin-top: -3px; color: #fff; font-weight: bold; overflow: hidden;}
-.sub3 > h2 { font-size: 22px; margin-top: 100px; line-height: 40px; margin-bottom: 30px;}
+.sub3 > h2 { font-size: 22px; margin-top: 100px; line-height: 40px; margin-bottom: 20px;}
 .sub3 > h2 span { font-size: 43px; }
+.sub3 > img { position: absolute; left: 49.2%; }
 
+.travel1 { width: 320px; margin-left: 21.5%; margin-top: 9%; float: left;}
+.travel1 > .circle { width: 140px; height: 140px; border-radius: 100%; background-color: #fff; float: left; margin: 0 10px 10px 0; transition: .5s; }
+.travel1 > .circle p a { color: #000; font-size: 16px; font-weight:bold; }
+.travel1 > .circle:nth-of-type(1) p a { color: #fff; }
+.travel1 > .circle:nth-of-type(1) { background-color: #04619E; }
+.travel1 > .circle img{ margin-top: 35px; margin-bottom: 5px; }
 
+.travel2 { float: left; }
+.travel2 > div { position: relative; margin-top: 12%; width: 478px; height: 478px; background-color: rgba(255,255,255,.5); border-radius: 100%; color: #000; }
 
+.travel2 h2 { font-size: 17px; padding-top: 20%; line-height: 32px;}
+.travel2 h2 span { font-size: 31px; }
+.travel2 h3 { font-size: 44px; margin-top: 8px; margin-bottom: 50px;}
+.travel2 h3 span { font-size: 18px; }
+.travel2 p { font-size: 13px; line-height: 15px; }
+.travel2 > div p a { font-size: 40px; color: #000; width: 47px; height: 47px; background-color: rgba(255,255,255,.7); border-radius: 100%; }
+.travel2 div p a i { padding-right: 5px; }
+.travel2 div p a:nth-of-type(2) i { padding-left: 5px; }
+.travel2 div p a:nth-of-type(1) { position: absolute; left:5%; top: 50%; }
+.travel2 div p a:nth-of-type(2) { position: absolute; right:5%; top: 50%; }
+.travel2 h4 { width: 200px; height: 30px; background-color: rgba(0,0,0,.5); }
+.travel2 h4 a { font-size: 15px; }
