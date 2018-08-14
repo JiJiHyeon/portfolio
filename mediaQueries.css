@@ -21,3 +21,15 @@
 	.img { width: 600px; height: 500px; }
 	.imgG a img { width: 600px; height: 500px; }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+	.one > p { font-size: 12px; margin-top: -2%;}
+	.one ul { position: absolute; bottom: 60px; left: 20px; }
+	.one li { line-height: 65px; }
+	.one li a { font-size: 35px; width: 800px; }
+	.one li span { left: 500px; padding-top: 5px;}
+
+	.box { width: 600px; height: 500px; bottom: 1.5%; }
+	.img { width: 600px; height: 500px; }
+	.imgG a img { width: 600px; height: 500px; }
+}
