@@ -1,7 +1,9 @@
 @charset "utf-8";
 
 	* { color: #fff; transition: .4s;}
-	body { font-family: 'Play', sans-serif;background-color: #000; letter-spacing: 2px; width: 100%; overflow: hidden; }	
+	body { font-family: 'Play', sans-serif;background-color: #000; letter-spacing: 2px; width: 100%; overflow: hidden; }
+
+
 	header { overflow: hidden;}
 	ul { overflow: hidden; }
 	header > div:nth-of-type(1) { float: left; margin: 20px;  }
@@ -32,11 +34,19 @@
 	footer a:hover { background-color: #939393;}
 	footer i { position: fixed; bottom: 20px; left: 200px; }
 
+	#pop { width: 400px; height: 400px;  clear: both; }
+	#pop a img { position: absolute; left: 40%; top: 30%; outline: 2px solid #eee;z-index: 999;  }
+
+
 	article { position: relative; height: 980px; margin-top: 980px; background-color: rgba(0,0,0,0.8); z-index: 9999; overflow: auto; }
 	::-webkit-scrollbar {display:none;}
-	article > h2 { font-size: 20px; position: absolute; right: 5px; margin-right: 20px; }
+	article > h2 { font-size: 20px; position: absolute; right: 5px; top: 20px; margin-right: 20px; }
 	article > h2 i{ margin-left: 10px; }
-	article > fieldset div { float: left; margin-left: 16%; margin-bottom: 10%;}
+	article > fieldset div { float: left; margin-left: 16%; margin-bottom: 5%;}
+	article > fieldset .cont7 { margin-bottom: 13%;}
 	article > fieldset div p { font-size: 20px; margin-top: 10px;}
+
 	article > fieldset div span { font-size: 14px; }
 	article > fieldset .cont2 span { padding-left: 10px; }
+	.cont1, .cont2, .cont3 { margin-top: 5%; }
+

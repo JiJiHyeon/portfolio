@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+* { color: #fff; transition: .4s;}
+body { background-color: #000; font-family: 'Play', sans-serif; letter-spacing: 2px; width: 100%; }
+
+	header { overflow: hidden; }
+	ul { overflow: hidden; }
+	header > div:nth-of-type(1) { float: left; margin: 20px; }
+	header > div:nth-of-type(2) { float: right; margin: 20px; letter-spacing: 1px;}
+	div:nth-of-type(1) h2 { margin-top: 10px; }
+	div:nth-of-type(1) h1 a:hover { color: #939393;}
+	div:nth-of-type(2) a { margin-left: 10px;}
+	div:nth-of-type(2) a:nth-of-type(1) { color: #939393;}
+	div:nth-of-type(2) a:nth-of-type(1):hover { color: #565656;}
+
+
+	.one > h1 a { position: absolute; top: 20%; left: 16%;}
+	.one > h2 { color: #fff; font-size: 22px; position: absolute; top: 45%; left: 16%; letter-spacing: 0px; font-weight: bold;}
+	.one > h3 { color: #fff; font-size: 18px; position: absolute; top: 45.5%; left: 21%; letter-spacing: 0px; }
+	.one > h4 { color: #fff; position: absolute; top: 50%; left: 16%; }
+	.two { font-size: 18px; position: absolute; left: 15.5%; top: 57%; }
+	.two > ul:nth-of-type(1) { float: left; padding: 10px; text-decoration: underline; font-weight: bold;}
+	.two > ul:nth-of-type(2) { float: left; font-size: 15px; margin-top: 10px;}
+	.two > ul:nth-of-type(2) li { margin-top: 3px; margin-left: 3px; }
+	.two > ul li {padding: 10px 0; }
+
+	#career { position: relative; top: 200px; left: 800px; font-size: 15px; line-height: 25px; letter-spacing: 1.5px; }
+	#career h2 { font-weight: bold; font-size: 18px; text-decoration: underline; }
+	#career img { margin-right: 100px; }
+	#career h3 { font-weight: bold; margin: 7px 0; }
+
+	article { position: relative; top:250px; left: 800px; width: 600px; overflow:hidden; }
+	article h1 { margin-bottom: 30px; text-decoration: underline; }
+	article ul { float: left; }
+	article ul li { margin-bottom: 20px;  }
+	article ul:nth-of-type(2) li { list-style-type:none; margin-left: 20px; }
+
+	
+	footer img { position: absolute; top: 30%; left: 50%; display: none;}
+	footer p:nth-of-type(2) { position: absolute; top: 38%; left: 53%; font-size: 35px; display: none;}
+	footer p:nth-of-type(2) span { font-size: 25px;}
+	footer h5 { position: absolute; top: 50%; right: 50px; }
+	footer i { position: absolute; top: 50.2%; right: 25px; color: red; font-size: 20px;}
+	footer h5 a { color: red; font-size: 20px; }

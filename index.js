@@ -1,3 +1,4 @@
+
 $(function(){
 	$('.col2 a , .col2 span').hover(function(){
 		$('#col a, #col span').css('color','#939393');
@@ -66,5 +67,12 @@ $(function(){
 		// $('article').css('display','block');
 		$('article').animate({'margin-top':'0px'},200);
 	});
+
+	$(function(){
+	$('#pop a img').on('click',function(){
+		$('#pop a img').hide();
+	});
+});
+
 
 });
